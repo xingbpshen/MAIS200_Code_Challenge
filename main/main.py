@@ -31,9 +31,9 @@ rent_avg = float(rent) / rent_c
 fig, axs = plt.subplots(1, 2)
 cols = ['home_ownership', 'loan_amount']
 rows = ['0', '1', '2']
-text = [['MORTGAGE', mor_avg],
-        ['OWN', own_avg],
-        ['RENT', rent_avg]]
+text = [['MORTGAGE', '%0.6f' % mor_avg],
+        ['OWN', '%0.6f' % own_avg],
+        ['RENT', '%0.6f' % rent_avg]]
 axs[0].table(cellText=text, rowLabels=rows, colLabels=cols, loc='center')
 axs[0].axis('tight')
 axs[0].axis('off')
