@@ -1,2 +1,2 @@
 # MAIS200_Code_Challenge
-run main.py in package main
+Run main.py in package main, result will show as plt figure.
